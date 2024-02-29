@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>    
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Landing Page</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styless/style.css" />
+</head>
+
+<body>
+
+    <video autoplay loop muted class="video__pagina__inicial">
+        <source src="./assets/galaxy .mp4" type="video/mp4">
+    </video> 
+    
+    <header class="menu_container flex"> <!--Cabeçalho da Página-->
+
+        <div class="menu_content">
+
+            <a href="#">Welcome</a>
+
+            <nav> <!--Nevegação-Menu-->
+                <ul class="menu_lista flex">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main> <!--Parte Pricipal da Página-->
+        <section id="Home" class="home_container"> 
+            <article id="home-texto" class="home_content"><!--Artigo,parte de uma Informaçao Maior-->
+                <h4>Bem vindo!</h4>
+                <h1>Explorando o cosmos da programação</h1>
+                <p></p>Olá, eu sou Rafael            
+                é uma grande satisfação tê-lo (a) aqui. Espero que aproveite o conteúdo e que eu possa te ajudar de alguma forma.</p>
+
+                <a class="btn" target="_blank" href="https://github.com/Raafa22">Explore</a>
+            </article>
+
+            <article id="home-imagem" class="home_content"> <!-- Adicione aqui as CLASSES -->
+               <img class="home_content_img" src="./assets/astronauta.svg" alt="Capacete de Austronauta Animado"/>
+            </article>
+        </section>
+
+                <section id="sobre" class="sobre_container">    <!-- Adicione aqui as CLASSES -->
+                <img src="https://avatars.githubusercontent.com/u/148557678?v=4" alt="foto perfil github">
+
+                <article id="sobre-texto">  <!-- Adicione aqui as CLASSES -->
+                <h2>Quem sou eu ?</h2>
+                <p2>
+                    Olá me chamo Rafael!
+                    Sou formado em Gestão de Pessoas e trabalhei com departamento pessoal, tendo contato direto com os colaboradores e no setor administrativo da folha de pagamento.
+                     Depois de trabalhar no RH, atuei por um período na área de eventos. Atualmente, estou em transição de carreira para a área de tecnologia.
+                     Recentemente, participei de um Bootcamp Full Stack Java Júnior realizado pela Generation Brasil, onde adquiri habilidades técnicas em Java, Spring, Banco de dados MySQL e metodologia ágil Scrum, além de habilidades interpessoais como comunicação, persistência, trabalho em grupo e orientação aos detalhes, mentalidade de crescimento. 
+                     Também estudei por um semestre na instituição Mackenzie no curso Análise e Desenvolvimento de Sistemas. Pretendo retornar ao ensino superior em 2024 e estou em busca de uma oportunidade como desenvolvedor.       
+                     Abaixo meu Github com projetos realizados.<br>             
+                </p2>
+
+            <div id="sobre-github" class="sobre_github flex">   <!-- Adicione qui as CLASSES -->
+            <article><!--Artigo com as info.do Github -->
+            <a class="btn"target="_blank" href="https://github.com/Raafa22"> github<a/> 
+
+                <p>10 Seguidores</p>
+                <p>24 Repositórios</p>
+            </div>
+            </article> 
+
+        </section>
+
+        <section id="contato">
+            <article> <!--Artgio de texto/Rede sociais-->
+
+                <section id="contato" class="contato_container">    <!-- Adicione aqui as CLASSES -->
+                    <article id="contato-texto" class="contato_content">    <!-- Adicione aqui as CLASSES -->
+                        <h4>Me Contate</h4>
+                        <p>Interessado em iniciar uma conversa produtiva?Estou sempre pronto para trocar ideias, compartilhar conhecimentos
+                             e fazer novas conexões! Sinta-se à vontade para me contatar através das minhas redes sociais abaixo. 
+                             Mal posso esperar para ouvir de você e iniciar uma conversa incrível!</p>
+        
+
+                <div id="redes-sociais" class="social_container flex">  <!-- Adicione aqui as CLASSES -->
+                    <a href="https://www.linkedin.com/in/rafael-cabral22/">
+                        <img class="social_icon" src="https://img.icons8.com/ios/500/linkedin.png"
+                            alt="Logo do LinkedIn" />   <!-- Adicione aqui as CLASSES -->
+                    </a>
+                    <a href="https://github.com/Raafa22">
+                        <img class="social_icon" src="https://img.icons8.com/ios/500/github--v1.png" 
+                        alt="Logo do Github" /> <!-- Adicione aqui as CLASSES -->
+                    </a>
+                    <a href="https://www.instagram.com/">
+                        <img class="social_icon" src="https://img.icons8.com/ios/500/instagram-new--v1.png"
+                            alt="Logo do Instagram" />  <!-- Adicione aqui as CLASSES -->
+                    </a>
+                </div>
+            </article>
+
+            <form action="" method="POST">
+                <label>Nome:</label>
+                <input type="text" name="nome" placeholder="Digite seu nome" required />          
+            
+                <label>Email:</label> <!--rafael@example.com-->
+                <input type="email" name="email" placeholder="Digite seu email" required />         
+           
+                <label>Assunto:</label>
+                <input type="text" name="Assunto" placeholder="Digite o assunto da mensagem" required />
+
+                <label>mensagem:</label>
+                <textarea name="mensagem" placeholder="Digite sua Mensagem " required></textarea/> 
+
+                <button class="btn" type="submit">Enviar</button> <!-- Adicione aqui as CLASSES -->
+
+            </form>
+
+        </section>
+    </main>
+
+    <footer> <!--Rodapé-->
+        Projeto feito com 😀 por Rafael Cabral - 2024
+
+    </footer>
+    
+</body>
+
+</html>
